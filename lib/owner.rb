@@ -43,4 +43,8 @@ attr_reader  :name, :species
     Dog.new(dog,self)
   end
   
+  def walk_dogs
+    binding.pry 
+    
+  end
 end
