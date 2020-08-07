@@ -47,7 +47,9 @@ attr_reader  :name, :species
   def walk_dogs
     dogs.each {|m| m.mood = "happy"}
   end
-
-
+  
+  def feed_cats
+    cats.each {|m| m.mood = "happy"}
+  end
 end
   
