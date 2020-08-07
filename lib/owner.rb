@@ -54,7 +54,7 @@ attr_reader  :name, :species
   
   def sell_pets
     #binding.pry
-    !feed_cats
+    feed_cats.reverse
   end
   #can sell all its pets, which makes them nervous (FAILED - 1)
   
