@@ -44,7 +44,7 @@ attr_reader  :name, :species
   end
   
   def walk_dogs
-    binding.pry 
-    self.find(name) ? self.find(name) : self.new(name
+    #binding.pry 
+    #self.find(name) ? self.find(name) : self.new(name
   end
 end
