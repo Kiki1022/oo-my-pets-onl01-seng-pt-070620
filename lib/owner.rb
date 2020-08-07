@@ -55,11 +55,11 @@ attr_reader  :name, :species
   def sell_pets
     dogs.each do|m| 
     m.mood = "nervous"
-    owner = nil
+    m.owner = nil
   end
     cats.each do|m| 
     m.mood = "nervous"
-    owner = nil
+    m.owner = nil
    end
   end
 end
