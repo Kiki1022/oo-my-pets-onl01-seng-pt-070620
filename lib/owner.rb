@@ -67,8 +67,8 @@ attr_reader  :name, :species
   def list_pets
     
   end
-  lists all of the owners pets#
-   songs.each {|s| puts s.name}
+  #lists all of the owners pets#
+   #songs.each {|s| puts s.name}
   end
   
 end
