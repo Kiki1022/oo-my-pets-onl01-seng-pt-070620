@@ -1,6 +1,7 @@
 require 'pry'
 class Owner
 
+attr_accessor :feed, :walk
 attr_reader  :name, :species
 @@all = []
 
