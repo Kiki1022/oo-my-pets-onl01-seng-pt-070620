@@ -63,6 +63,9 @@ attr_reader  :name, :species
       m.owner = nil
    end
   end
-
+  
+  def list_pets
+    
+  end
 end
   
