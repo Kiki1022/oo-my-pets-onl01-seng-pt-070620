@@ -65,11 +65,11 @@ attr_reader  :name, :species
   end
   
   def list_pets
-    
+ binding.pry
   end
   #lists all of the owners pets#
    #songs.each {|s| puts s.name}
-  end
+  
   
 end
   
