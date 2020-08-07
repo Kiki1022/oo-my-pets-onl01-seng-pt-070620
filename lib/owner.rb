@@ -54,7 +54,7 @@ attr_reader  :name, :species
   
   def sell_pets
     #binding.pry
-    feed_cats.reverse
+   all.each {|m| m.mood = "nervous"}
   end
   #can sell all its pets, which makes them nervous (FAILED - 1)
   
