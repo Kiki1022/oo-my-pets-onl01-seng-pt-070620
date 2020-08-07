@@ -54,7 +54,7 @@ attr_reader  :name, :species
   
   def sell_pets
    Dog.all.each {|m| m.mood = "nervous", m.owner = nil}
-   Cat.all.each {|m| m.mood = "nervous", m.name = nil}
+   Cat.all.each {|m| m.mood = "nervous", m.owner = nil}
    #binding.pry
   end
  
