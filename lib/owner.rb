@@ -37,7 +37,7 @@ attr_reader  :name, :species
   end
   
   def buy_cat(cat)
-  Cat.new(cat,self) 
+    Cat.new(cat,self) 
   end
   
   def buy_dog(dog)
@@ -55,7 +55,7 @@ attr_reader  :name, :species
   def sell_pets
     
   end
-  
+  #can sell all its pets, which makes them nervous (FAILED - 1)
   
 end
   
