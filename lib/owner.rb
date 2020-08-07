@@ -45,7 +45,8 @@ attr_reader  :name, :species
   end
 
   def walk_dogs
-    self.dogs.each {|m| @mood = "happy"}
+    binding.pry
+    #self.dogs.each {|m| @mood = "happy"}
     
     end
 
