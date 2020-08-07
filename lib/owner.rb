@@ -66,6 +66,7 @@ attr_reader  :name, :species
   
   def list_pets
  binding.pry
+ 
   end
   #lists all of the owners pets#
    #songs.each {|s| puts s.name}
