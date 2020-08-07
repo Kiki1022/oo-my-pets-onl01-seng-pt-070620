@@ -53,7 +53,7 @@ attr_reader  :name, :species
   end
   
   def sell_pets
-    
+    #binding.pry
   end
   #can sell all its pets, which makes them nervous (FAILED - 1)
   
