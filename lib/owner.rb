@@ -47,9 +47,8 @@ attr_reader  :name, :species
   def walk_dogs
     self.walk
     @mood = "happy"
-    #binding.pry 
-    #self.find(name) ? self.find(name) : self.new(name#
-    #dog.walk? @mood = "happy" : @mood = "nervous"
+    binding.pry 
+   
   end
   
 end
