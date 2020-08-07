@@ -53,7 +53,7 @@ attr_reader  :name, :species
   end
   
   def sell_pets
-    binding.pry
+    #binding.pry
    Dog.all.each {|m| m.mood = "nervous"}
   end
  
