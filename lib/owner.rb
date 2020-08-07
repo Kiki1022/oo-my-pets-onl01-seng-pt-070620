@@ -56,7 +56,6 @@ attr_reader  :name, :species
     #binding.pry
    self.all.each {|m| m.mood = "nervous"}
   end
-  #can sell all its pets, which makes them nervous (FAILED - 1)
-  
+ 
 end
   
