@@ -36,16 +36,9 @@ attr_reader  :name, :species
     Dog.all.select {|d| d.owner == self}
   end
   
-  def buy_cat(cat)
-   Cat.new(cat,self) 
-  end
+  # def buy_cat(cat)
+  # Cat.new(cat,self) 
+  # end
   
-  def buy_dog(dog)
-    Dog.new(dog,self)
-  end
-  
-  def walk_dogs(dog)
-    self.walk.dog? @mood = "happy" : @mood = "nervous"
-  end
-
+ 
 end
